@@ -1,1 +1,205 @@
-{\rtf1}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  /* Header/logo Title */
+  .header {
+    padding: 60px;
+    text-align: center;
+    background-image: url(/billeder/billede-af-blomstereng.jpg);
+    opacity: 50%;
+    color: white;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    display: flex;
+    background-color: #005D43;
+    height: 50px;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+      display: inline-block;
+    color: black;
+    background: radial-gradient(white, #B4E8EC,  grey );
+    padding: 5px 15px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+    cursor: pointer;
+    box-shadow: 5px 8px 16px 5px rgba(250, 248, 248, 0.2);
+  }
+
+  .artikelbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vw;
+   
+    
+  }
+  
+  .artikel1{
+      border: 2px solid #005D43;
+      
+      margin: auto;
+      width: 50%;
+      height: auto;
+      text-align: center;
+ 
+  }
+
+.pmksystem{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+  /* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 50%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {
+    flex: 50%;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .box1{
+      color: chartreuse;
+      display: block;
+      margin-left: auto;
+      margin-right: 0px;
+      width: 40%;
+      border: 3px solid green; 
+      padding: 100px;
+    
+
+
+  }
+
+  .box2{
+      color: crimson;
+      display: block;
+      margin-left: auto;
+      margin-right: 0px;
+      width: 40%;
+      border: 3px solid green;
+      padding: 100px;
+
+  }
+
+  .box3{
+      color: darksalmon;
+      display: block;
+      margin-left: auto;
+      margin-right: 0px;
+      width: 40%;
+      border: 3px solid green;
+      padding: 100px;
+
+  }
+
+ .box4{
+     color: darksalmon;
+      display: block;
+      margin-left: 0px;
+      margin-right: auto;
+      width: 40%;
+      border: 3px solid green;
+      padding: 100px;
+    }
+
+    .box5{ 
+     color: darksalmon;
+      display: block;
+      margin-left: 0px;
+      margin-right: auto;
+      width: 40%;
+      border: 3px solid green;
+      padding: 100px;
+    }
+
+
+    .box6{
+      color: darksalmon;
+      display: block;
+      margin-left: 0px;
+      margin-right: auto;
+      width: 40%;
+      border: 3px solid green;
+      padding: 100px;
+    }
+  
+
+  
+  /* Footer */
+  .footer {
+    display: flex;
+    background:white;
+    border: 4px solid #005D43;
+    width: 100%;
+  }
+
+  .h3 {
+      float: left;
+      height: 50px;
+      width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  padding: 50px;
+  }
+
+  .footerlogo{
+    
+    height: 50px;
+    width: 33.33%;
+    padding: 10px;
+
+
+}
+
+img{
+    display: block;
+    margin: auto;
+   
+    width: 13%;
+
+}
+     
+.some{
+    float: right;
+    height: 50px;
+    width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+padding: 50px;
+}
+
+  }
