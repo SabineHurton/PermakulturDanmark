@@ -1,11 +1,13 @@
 
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
+/* HEY SMUKKE. DET HER JS KONTROLLERER DROPDOWN MENU. SCROLL NED TIL BUNDEN OG INPUT DERFRA*/
+
+
+/* Hvis man klikker på knappen kommer den enten frem eller forsvinder */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
   
-  // Close the dropdown if the user clicks outside of it
+  // Lukker drop down hvis der klikkes uden for menuen.
   window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
       var dropdowns = document.getElementsByClassName("dropdown-content");
