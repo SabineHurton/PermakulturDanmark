@@ -132,3 +132,80 @@
   {display: block;
 }
  
+.medlemmer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+
+}
+
+
+
+    .dolleris{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: whitesmoke;
+        margin: 25px 0px;
+        padding: 5px 10px;
+        height: 300px;
+        width: 500px;
+        border: 2px solid black;
+        border-radius: 5px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    }
+
+    img {
+        width: 100px;
+        height: auto;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+
+    .txt1{
+        width: 70%;
+        margin-top: 20px;
+
+    }
+    
+
+    .lou{
+        background-color: whitesmoke;
+        margin: 25px 0px;
+        padding: 5px 10px;
+        height: 300px;
+        width: 500px;
+        border: 2px solid black;
+        border-radius: 5px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .lou img {
+        width: 100px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    
+
+    .ruben{
+        background-color: whitesmoke;
+        margin: 25px 0px;
+        padding: 5px 10px;
+        height: 300px;
+        width: 500px;
+        border: 2px solid black;
+        border-radius: 5px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .ruben img {
+        width: 100px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    
