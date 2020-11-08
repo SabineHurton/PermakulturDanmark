@@ -4,26 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/forside.css">
+    
+    <script src="/js/forside.js"></script>
     <title>Ekperimental forside</title>
+  
 </head>
 <body>
     
 <!-- Header -->
 <div class="header">
     <h1>Ekperimental forside</h1>
-   
   </div>
-  
+
   <!-- Navigation Bar -->
   <div class="navbar">
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-  </div>
+
+<ul>
   
+  <a href="#">Link</a>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Blog</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#home">Artikel 1</a>
+          <a href="#about">Artikel 2</a>
+          <a href="#contact">Artikel 3</a>
+        </div>
+      </div>
+
+    
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#" style="float: right;">Link</a>
+    <a href="#" style="float: right;">Link</a>
+    <a href="#" style="float: right;">Link</a>
+  
+  </ul>
+  </div>
+
+  
+    
 <div class="artikelbox">
     
     <div class="artikel1"> Her er selve artiklen
@@ -51,8 +70,8 @@
 
   <div class="row">
 
-    <div class="side">
-      <h2>Venstre Side</h2>
+    <div class="venstre">
+      
       <div class="box1" style="height:60px;">Box1</div>
       <br>
       <div class="box2" style="height:60px;">Box2</div>
@@ -63,8 +82,8 @@
     </div>
 
 
-    <div class="main">
-      <h2>Højre side</h2>
+    <div class="højre">
+    
 
       <div class="box4" style="height:60px;">Box4</div>
       <br>
