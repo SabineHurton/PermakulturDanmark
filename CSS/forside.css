@@ -18,20 +18,19 @@
     color: white;
     justify-content: center;
     align-items: center;
+    background-image: url(/billeder/billede-af-blomstereng.png);
   }
 
   .header img {
     margin: 0px;
     height: 250px;
-    opacity: 50%;
    
   }
   .headerlogo img{
-    opacity: 100%;
     width: 70px;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    
 }
 
   
@@ -283,19 +282,19 @@
 
   .footerlogo{
     
-    height: 50px;
-    width: 33.33%;
-    padding: 10px;
+   /* height: 50px;
+    width: 13%;
+    padding: 10px;*/
+    width: 70px;
+    justify-content: center;
+    align-items: center;
 
   }
 
-img{
-    display: block;
-    margin: auto;
-    width: 13%;
+
     
 
-}
+
      
 .some{
     float: right;

@@ -6,14 +6,12 @@
  
   body {
     font-family: Arial;
-    margin: 0;
+    margin: 0; 
   }
-  
-  
   .header {
     padding: 60px;
     text-align: center;
-    background-image: url(/billeder/billede-af-blomstereng.jpg);
+    background-image: url(/billeder/billede-af-blomstereng.png);
     opacity: 50%;
     color: white;
   }
@@ -139,40 +137,38 @@
     justify-content: center;
     align-items: center;
     padding: 10px 5px;
+    background-image: url(/billeder/kællingetand.png);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 
 }
 
+img {
+  width: 100px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-right: 10px;
+  float: left;
+}
 
+h1 {
+  font-size: larger;
+}
 
     .dolleris{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        background-color: whitesmoke;
-        margin: 25px 0px;
-        padding: 5px 10px;
-        height: 300px;
-        width: 500px;
-        border: 2px solid black;
-        border-radius: 5px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+      background-color: whitesmoke;
+      margin: 25px 0px;
+      padding: 5px 10px;
+      height: 300px;
+      width: 500px;
+      border: 2px solid black;
+      border-radius: 5px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      overflow: scroll;
     }
 
-    img {
-        width: 100px;
-        height: auto;
-        border: 2px solid black;
-        border-radius: 5px;
-        margin-right: 10px;
-        float: left;
-    }
-
-    .txt1{
-        width: 70%;
-        margin-top: 20px;
-
-    }
-    
 
     .lou{
         background-color: whitesmoke;
@@ -183,16 +179,12 @@
         border: 2px solid black;
         border-radius: 5px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        overflow: scroll;
     }
 
-    .lou img {
-        width: 100px;
-        border: 2px solid black;
-        border-radius: 5px;
-        float: left;
+    ul {
+      list-style-type: circle;
     }
-
-    
 
     .ruben{
         background-color: whitesmoke;
@@ -203,11 +195,5 @@
         border: 2px solid black;
         border-radius: 5px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        overflow: scroll;
     }
-
-    .ruben img {
-        width: 100px;
-        border: 2px solid black;
-        border-radius: 5px;
-    }
-    

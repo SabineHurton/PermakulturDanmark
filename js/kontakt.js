@@ -3,7 +3,7 @@
 
 
 /* Hvis man klikker på knappen kommer den enten frem eller forsvinder */
-function myFunction() {
+function openclosemenu() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
   
