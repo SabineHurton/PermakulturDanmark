@@ -164,6 +164,7 @@
         border: 2px solid black;
         border-radius: 5px;
         margin-right: 10px;
+        float: left;
     }
 
     .txt1{
@@ -188,6 +189,7 @@
         width: 100px;
         border: 2px solid black;
         border-radius: 5px;
+        float: left;
     }
 
     
