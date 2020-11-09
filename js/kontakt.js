@@ -21,4 +21,34 @@ function openclosemenu() {
     }
   }
   
-  /*-------------------------- input herfra
+  // Javascript til kontaktformular starter her
+  
+function kontaktform() { 
+        var name = document.forms["Form"]["Navn"]; 
+        var email = document.forms["Form"]["EMail"]; 
+        var what = document.forms["Form"]["Emne"]; 
+        
+  
+        if (name.value == "") { 
+            window.alert("Indtast venligst navn"); 
+            name.focus(); 
+            return false; 
+        } 
+  
+  
+        if (email.value == "") { 
+            window.alert( 
+              "Indtast venligst en gyldig email adresse"); 
+            email.focus(); 
+            return false; 
+        } 
+
+  
+        if (what.selectedIndex < 1) { 
+            alert("Vælg et emne"); 
+            what.focus(); 
+            return false; 
+        } 
+  
+        return true; 
+    } 
