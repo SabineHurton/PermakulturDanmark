@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/kontakt.css">
-    <script src="/js/kontakt.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/kontakt.css">
+	<script src="../JS/kontakt.js"></script>
+	
+<title>Document</title>
 </head>
 <body>
     
 <div class="header">
-    <h1>Ekperimental forside</h1>
-  </div>
+  <h1>Ekperimental forside</h1>
+</div>
 
 
-  <div class="navbar">
+<div class="navbar">
 
 <ul>
     
@@ -39,7 +40,41 @@
 </ul>
 </div>
 
-Kontaktside.. Input content herfra -----------------------------------------
+
+	
+<h1>Kontakt os</h1>	
+	
+<form name="Form" action="/submit.php" 
+onsubmit="return kontaktform()" method="post">
+	
+<p>Navn: <input type="text" size="65" name="Navn"/></p> 
+<br/> 
+      
+<p>E-mail adresse: <input type="text" size="65" name="EMail" /></p> 
+<br/> 
+       
+ <p> 
+ Hvad drejer henvendelsen sig om: <br>
+
+ <select type="text" value="" name="Emne"> 
+<option>Vælg venligst...</option> 
+ <option>Uddannelse</option> 
+ <option>Medlemsskab</option> 
+ <option>Land-centre</option> 
+ <option>Events</option> 
+ <option>Andet</option> 
+ </select> 
+ </p> 
+        
+<br/> 
+<br/>
+	
+<p>Besked skrives her: <textarea cols="55" name="Besked"> </textarea></p> 
+	
+<p> 
+<input type="submit" value="Send" name="Submit" /> 
+</p> 
+</form> 
 
 </body>
 </html>
