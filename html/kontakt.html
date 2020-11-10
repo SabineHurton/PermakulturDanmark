@@ -45,12 +45,13 @@
 
 	
 <h1>Kontakt os</h1>	
-	
+
+<div class="form"> 	
 <form name="Form" action="/submit.php" 
 onsubmit="return kontaktform()" method="post">
 	
-<p>Navn: <input type="text" size="65" name="Navn"/></p> 
-<br/> 
+<p> <b>Navn:</b> <br> <input type="text" size="65" name="Navn"/></p> 
+<br/>  
       
 <p> <b> E-mail adresse: </b>
   
@@ -59,8 +60,7 @@ onsubmit="return kontaktform()" method="post">
     </p> 
 <br/> 
        
- <p> 
- Hvad drejer henvendelsen sig om: <br>
+ <p> <b> Hvad drejer henvendelsen sig om:</b> <br>
 
  <select type="text" value="" name="Emne"> 
 <option>Vælg venligst...</option> 
@@ -75,12 +75,13 @@ onsubmit="return kontaktform()" method="post">
 <br/> 
 <br/>
 	
-<p>Besked skrives her: <textarea cols="55" name="Besked"> </textarea></p> 
+<p><b>Besked skrives her:</b> <br><textarea cols="55" name="Besked"> </textarea></p> 
 	
 <p> 
 <input type="submit" value="Send" name="Submit" /> 
-</p> 
+</p>
 </form> 
+</div> 
 
 </body>
 </html>
