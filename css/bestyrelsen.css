@@ -1,5 +1,4 @@
-
-  * {
+* {
     box-sizing: border-box;
   }
   
@@ -191,14 +190,31 @@
 
 }
 
-img {
+.dolleris img {
   width: 100px;
   height: auto;
-  
   border-radius: 5px;
   margin-right: 10px;
   float: left;
 }
+
+.lou img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 10px;
+  float: left;
+}
+
+.ruben img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 10px;
+  float: left;
+}
+
+
 
 h1 {
   font-size: larger;
@@ -261,15 +277,14 @@ h1 {
         
     }
   
-    .footerlogo{
-      width: 70px;
+    .footerlogo {
+      width: 60px;
       justify-content: center;
       align-items: center;
     }   
   
   .some{
     width: auto;
-    
   }
   
   .telefon {
