@@ -238,7 +238,11 @@ p {
     background-color: white;
     padding: 20px;
   }
+h6{
+    text-align: center;
+    font-size: large;
 
+  }
   .box1{
    
     margin-left: auto;
@@ -256,11 +260,7 @@ p {
   }
 
 
-  h6{
-    text-align: center;
-    font-size: large;
-
-  }
+  
 
   .pbox1{
     text-align: left;
@@ -277,6 +277,11 @@ p {
     text-align: center;
   }
 
+  .vinter{
+    width: 40%;
+    float: right;
+  }
+
 
   .box3{
     margin-left: auto;
@@ -286,6 +291,11 @@ p {
     border: 3px solid green; 
     color:black;
     text-align: center;
+  }
+
+  .høns {
+    width: 40%;
+    float: right;
   }
 
   h3{
@@ -299,22 +309,34 @@ p {
  
       margin-left: 0px;
       margin-right: auto;
+      padding-bottom: 5px;
       width: 49.2%;
       height: auto;
       border: 3px solid green; 
       color:black;
       text-align: center;
     }
+
+    .fællesskab {
+      width: 45%;
+      float: right;
+    }
   
 
     .box5{ 
       margin-left: 0px;
       margin-right: auto;
+      padding-bottom: 5px;
       width: 49.2%;
       height: auto;
       border: 3px solid green; 
       color:black;
       text-align: center;
+    }
+
+    .stork {
+      width: 45%;
+      float: right;
     }
   
 
@@ -322,13 +344,18 @@ p {
     .box6{
       margin-left: 0px;
       margin-right: auto;
+      
       width: 49.2%;
       height: auto;
       border: 3px solid green; 
       color:black;
       text-align: center;
     }
-  
+
+    .sæbe {
+      width: 40%;
+      float: right;
+    }
 
   
   
